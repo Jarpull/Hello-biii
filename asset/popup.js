@@ -8,7 +8,7 @@ function popup() {
         width: String(80 + (longest.length - 5) * 20) + 'px'
     });
 
-    if (document.getElementById('message').innerHTML.includes('Biii') && !popup.classList.contains('show')) {
+    if (document.getElementById('message').innerHTML.includes('Vinny') && !popup.classList.contains('show')) {
         popup.classList.toggle('show');
         setTimeout(function () {
             popup.classList.toggle('show');
