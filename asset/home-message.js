@@ -39,7 +39,7 @@ function typeWriter() {
 	else if (hour > 10) message += afternoonMessage;
 	else message += morningMessage;
 
-	message += 'Biii';
+	message += 'Vinny';
 	currentDate = new Date()
 	date = currentDate.getDate()
 	month = currentDate.getMonth()
